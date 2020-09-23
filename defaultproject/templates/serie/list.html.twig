@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <h1>Our series</h1>
+    {%for serie in series%}
+        <div class="serie">
+            <a href="{{ path('serie_detail', {'id': serie.id}) }}">{{ serie.name }}</a>
+            ({{ serie.seasons|length }}seasons)
+        </div>
+    {% endfor %}
+
+{% endblock %}
+
+{% block title %}Our series! | {{ parent() }}{% endblock %}

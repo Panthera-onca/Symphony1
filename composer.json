@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/apache-pack": "^1.0",
+        "doctrine/annotations": "^1.10"
+    }
+}

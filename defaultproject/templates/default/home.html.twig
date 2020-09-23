@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+<h1>Home!!!{{ title }}</h1>
+
+<p>Lorem ipsum</p>
+    {% for serie in series %}
+        <p>{{ loop.index }}{{ serie }}</p>
+    {% endfor %}
+
+{% endblock %}
+{% block title %}Series! | Home {% endblock %}

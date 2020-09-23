@@ -1,0 +1,21 @@
+body{
+    background-color: tomato;
+
+}
+
+.flash {
+    padding: 20px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flash-success {
+    background-color: #1b9448;
+    color: #cccccc;
+
+}
+
+.flash-error {
+    background-color: #dc3545;
+}
